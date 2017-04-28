@@ -1,3 +1,8 @@
+# NOTICE! #
+
+*This module has been forked from the upstream
+https://github.com/jamtur01/puppet-riemann . Caveat emptor!*
+
 puppet-riemann
 ==============
 
@@ -22,7 +27,7 @@ Installation & Usage
 2.  Install puppet-riemann as a module in your Puppet master's module
     path.
 
-3.  Update the `riemann_server` and `riemann_port` variables in the `riemann.yaml` file with 
+3.  Update the `riemann_server` and `riemann_port` variables in the `riemann.yaml` file with
     your riemann server IP and port and copy the file to `/etc/puppet/`. An example file is included.
 
 4.  Enable pluginsync and reports on your master and clients in `puppet.conf`
