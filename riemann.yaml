@@ -1,3 +1,6 @@
 ---
-:riemann_server: 'localhost'
-:riemann_port: 5555
+server: 'localhost'
+port: 5555
+protocol: 'tcp'
+timeout: 60
+fail_state: 'critical'
